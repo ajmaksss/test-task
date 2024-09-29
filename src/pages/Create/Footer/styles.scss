@@ -1,0 +1,12 @@
+.create-request-footer {
+  &.order {
+    .create-submit-btn {
+      background: var(--order-color) !important;
+    }
+  }
+  &.deliver {
+    .create-submit-btn {
+      background: var(--deliver-color) !important;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.edit-modal {
+  .type {
+    text-transform: capitalize;
+    &.order {
+      color: var(--order-color);
+    }
+    &.deliver {
+      color: var(--deliver-color);
+    }
+  }
+}

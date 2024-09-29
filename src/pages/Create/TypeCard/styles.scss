@@ -1,0 +1,45 @@
+.type-card {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  width: 100%;
+  transition: all 0.3s;
+  background: #fff;
+
+  svg {
+    height: 90px;
+    width: 90px;
+    path {
+      transition: all 0.3s;
+      fill: #c1c2c3;
+    }
+  }
+  &.active {
+    &.order {
+      background: #e6f4ff;
+      border-color: var(--order-light-color);
+      path {
+        fill: var(--order-color);
+      }
+      strong {
+        color: var(--order-color);
+      }
+    }
+    &.deliver {
+      background: #fffbe6;
+      border-color: var(--deliver-light-color);
+      path {
+        fill: var(--deliver-color);
+      }
+      strong {
+        color: var(--deliver-color);
+      }
+    }
+  }
+  &:not(.active):hover {
+    transform: translateY(-5px);
+    -webkit-box-shadow: -1px 60px 99px -24px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: -1px 60px 99px -24px rgba(0, 0, 0, 0.14);
+    box-shadow: -1px 60px 99px -24px rgba(0, 0, 0, 0.14);
+  }
+}

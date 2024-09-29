@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "label": "gadgets"
+  },
+  {
+    "id": 1,
+    "label": "drinks"
+  },
+  {
+    "id": 2,
+    "label": "clothes"
+  },
+  {
+    "id": 3,
+    "label": "medicines"
+  },
+  {
+    "id": 4,
+    "label": "other"
+  }
+]

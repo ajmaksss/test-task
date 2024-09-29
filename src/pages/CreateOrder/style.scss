@@ -1,0 +1,10 @@
+.create-order-form-wrapper {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid var(--order-light-color);
+  h3 {
+    span {
+      color: var(--order-color) !important;
+    }
+  }
+}

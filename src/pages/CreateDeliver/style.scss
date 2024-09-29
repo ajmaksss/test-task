@@ -1,0 +1,10 @@
+.create-deliver-form-wrapper {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid var(--deliver-light-color);
+  h3 {
+    span {
+      color: var(--deliver-color) !important;
+    }
+  }
+}
